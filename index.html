@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A practical, six-month roadmap for becoming a data analyst."
+    />
+    <title>Analyst Path — Your data analyst roadmap</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="dist/main.js" defer></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="Main navigation">
+        <a class="brand" href="#overview" aria-label="Analyst Path home">
+          <span class="brand-mark" aria-hidden="true">a.</span>
+          <span>analyst<span class="brand-light">path</span></span>
+        </a>
+
+        <div class="sidebar-label">YOUR WORKSPACE</div>
+        <nav class="primary-nav">
+          <a class="nav-link active" href="#overview">
+            <span class="nav-icon" aria-hidden="true">◫</span>
+            Overview
+          </a>
+          <a class="nav-link" href="#roadmap">
+            <span class="nav-icon" aria-hidden="true">◎</span>
+            Learning roadmap
+          </a>
+          <a class="nav-link" href="#resources">
+            <span class="nav-icon" aria-hidden="true">↗</span>
+            Free resources
+          </a>
+        </nav>
+
+        <div class="sidebar-note">
+          <span class="note-spark" aria-hidden="true">✳</span>
+          <p class="note-title">Small steps, big picture.</p>
+          <p class="note-copy">A little progress each week adds up to a whole new career.</p>
+        </div>
+
+        <div class="sidebar-footer">
+          <span class="avatar">DP</span>
+          <span class="profile-copy">
+            <strong>Data explorer</strong>
+            <span>Your next chapter</span>
+          </span>
+          <span class="profile-menu" aria-hidden="true">···</span>
+        </div>
+      </aside>
+
+      <main id="overview" class="main-content">
+        <header class="topbar">
+          <div class="breadcrumb">My learning <span>/</span> Career roadmap</div>
+          <div class="topbar-right">
+            <span class="today-label"><span class="status-dot"></span> YOUR JOURNEY, YOUR PACE</span>
+            <button class="icon-button" type="button" aria-label="Notifications">♧<span class="notification-dot"></span></button>
+          </div>
+        </header>
+
+        <section class="welcome-section">
+          <div class="welcome-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span> THE CAREER SWITCHER'S GUIDE</div>
+            <h1>Turn curiosity<br />into <span class="highlight">career clarity.</span></h1>
+            <p class="welcome-description">
+              A hands-on roadmap to becoming a data analyst—one practical skill, one real project at a time.
+            </p>
+            <a class="primary-button" href="#roadmap">Explore your roadmap <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="art-sun"></div>
+            <div class="art-grid">
+              <span style="--bar-height: 30%"></span>
+              <span style="--bar-height: 48%"></span>
+              <span style="--bar-height: 41%"></span>
+              <span style="--bar-height: 66%"></span>
+              <span style="--bar-height: 58%"></span>
+              <span style="--bar-height: 82%"></span>
+              <span style="--bar-height: 72%"></span>
+            </div>
+            <div class="art-card">
+              <span class="art-card-label">YOUR POTENTIAL</span>
+              <span class="art-card-value">∞</span>
+              <span class="art-card-caption">More than you think.</span>
+            </div>
+            <span class="art-spark spark-one">✳</span>
+            <span class="art-spark spark-two">✳</span>
+          </div>
+          <div class="hero-index">01 <span>/ 06</span></div>
+        </section>
+
+        <section class="journey-overview" aria-label="Roadmap overview">
+          <div class="overview-heading">
+            <div>
+              <div class="section-kicker">THE BIG PICTURE</div>
+              <h2>Your journey at a glance</h2>
+            </div>
+            <span class="overview-caption">Built for steady, sustainable progress.</span>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card progress-stat">
+              <div class="stat-topline"><span class="stat-icon violet">↗</span><span class="stat-label">ROADMAP PROGRESS</span></div>
+              <div class="stat-value"><span id="progress-percent">0</span><span class="stat-suffix">%</span></div>
+              <div class="progress-track"><span id="progress-bar" class="progress-fill"></span></div>
+              <div id="progress-caption" class="stat-footnote">0 of 18 topics completed</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-topline"><span class="stat-icon orange">⌁</span><span class="stat-label">YOUR TIMELINE</span></div>
+              <div class="stat-value">6 <span class="stat-suffix">months</span></div>
+              <div class="stat-footnote">A flexible guide, not a deadline</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-topline"><span class="stat-icon green">◷</span><span class="stat-label">WEEKLY COMMITMENT</span></div>
+              <div class="stat-value">5 <span class="stat-suffix">hrs / wk</span></div>
+              <div class="stat-footnote">About 45 minutes a day</div>
+            </article>
+            <article class="stat-card">
+              <div class="stat-topline"><span class="stat-icon blue">✳</span><span class="stat-label">SKILLS TO BUILD</span></div>
+              <div class="stat-value">6 <span class="stat-suffix">skill areas</span></div>
+              <div class="stat-footnote">From first query to portfolio</div>
+            </article>
+          </div>
+        </section>
+
+        <section id="roadmap" class="roadmap-section">
+          <div class="roadmap-heading">
+            <div>
+              <div class="section-kicker">THE LEARNING PATH</div>
+              <h2>Skills that stack up.</h2>
+              <p>Follow the sequence or explore what excites you. Every topic has a free place to start.</p>
+            </div>
+            <label class="search-box">
+              <span aria-hidden="true">⌕</span>
+              <input id="topic-search" type="search" placeholder="Find a topic..." aria-label="Find a topic" />
+              <kbd>/</kbd>
+            </label>
+          </div>
+          <div id="roadmap-list" class="roadmap-list" aria-live="polite"></div>
+          <p id="empty-state" class="empty-state" hidden>No topics match that search. Try another keyword.</p>
+        </section>
+
+        <section id="resources" class="resource-banner">
+          <div class="resource-icon" aria-hidden="true">↗</div>
+          <div>
+            <div class="section-kicker">A NOTE ON RESOURCES</div>
+            <h2>Learn by doing, not just watching.</h2>
+            <p>Each link opens a trusted, mostly free starting point. Take notes, follow along, and make the work your own.</p>
+          </div>
+          <a class="resource-link" href="https://www.kaggle.com/datasets" target="_blank" rel="noreferrer">Explore datasets <span aria-hidden="true">↗</span></a>
+        </section>
+
+        <footer class="page-footer">
+          <span>MADE FOR THE CURIOUS.</span>
+          <span>There is no one right path. This one's a good place to start. <span class="footer-spark">✳</span></span>
+        </footer>
+      </main>
+    </div>
+  </body>
+</html>
